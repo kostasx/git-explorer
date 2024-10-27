@@ -11,15 +11,13 @@ When we run `git log ...` we only see the commits.  But if we open the `.git` fo
 How to Use
 ----------
 
-1. Specify the git repo to examine: Inside the `src` folder, create an `env.json` file that looks like this:
+1. Specify the git repo to examine: Inside the `src` folder, rename `env.json.sample` to `env.json` and update the path to point to the root repo folder (the one with the .git folder inside it, **not the .git folder itself**):
 
    ```
    {
      "gitRepo": "/path/to/your/repo"
    }
    ```
-
-   Note that this is to the root repo folder, the one with the .git folder inside it, not the .git folder itself.
 
 2. `npm install` or `yarn install`
 

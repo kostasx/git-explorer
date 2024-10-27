@@ -7,5 +7,5 @@ app.set('port', port);
 const server = createServer(app);
 
 server.listen(port, () => {
-  console.log(`listening on port ${port}`);
+  console.log(`listening on http://localhost:${port}`);
 });
